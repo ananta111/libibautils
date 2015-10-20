@@ -1,10 +1,10 @@
-cmake_minimum_required(VERSION 3.3)
+cmake_minimum_required(VERSION 2.8)
 
 file(GLOB SRCS "*.cpp")
 
 message(STATUS "configuring libibautils")
 
-SET(LIBIBAUTILS "ibautils.so")
+SET(LIBIBAUTILS "ibautils")
 
 # RE2
 SET(RE2_DIR ${PROJECT_SOURCE_DIR})
