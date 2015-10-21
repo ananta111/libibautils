@@ -1,10 +1,12 @@
 cmake_minimum_required(VERSION 2.8)
+project(libibautils)
 
-file(GLOB SRCS "*.cpp")
+set(CMAKE_BUILD_TYPE Release)
 
-message(STATUS "configuring libibautils")
 
 SET(LIBIBAUTILS "ibautils")
+
+file(GLOB SRCS "*.cpp")
 
 # RE2
 SET(RE2_DIR ${PROJECT_SOURCE_DIR})
@@ -22,3 +24,9 @@ SET_TARGET_PROPERTIES(${LIBIBAUTILS} PROPERTIES VERSION 0.0.1 SOVERSION 0)
 ##  LIBRARY DESTINATION ${TULIP_DIR}/lib COMPONENT ${LIBIBAUTILS}
 ##  ARCHIVE DESTINATION ${TULIP_DIR}/lib COMPONENT ${LIBIBAUTILS})
 ##
+
+set(INSTALL_BIN_DIR bin CACHE PATH "Installation directory for executables")
+set(INSTALL_LIB_DIR lib CACHE PATH "Installation directory for libraries")
+set(INSTALL_INC_DIR include CACHE PATH "Installation directory for headers")
+set(INSTALL_DATA_DIR share/${PROJECT_NAME} CACHE PATH "Installation
+directory for data files")
