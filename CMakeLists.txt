@@ -5,7 +5,7 @@ set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
 
 
-set(CMAKE_CXX_FLAGS "-Wall -std=c++0x -fPIC")
+set(CMAKE_CXX_FLAGS "-Wall -std=c++0x")
 
 
 
