@@ -4,7 +4,7 @@ project(libibautils)
 set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
 
-add_compile_options(-std=c++11)
+target_compile_features(foobar PRIVATE cxx_range_for)
 
 
 # RE2
