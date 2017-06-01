@@ -3,9 +3,7 @@ project(libibautils)
 
 set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
-set(CMAKE_CXX_STANDARD 11) # C++11...
-set(CMAKE_CXX_STANDARD_REQUIRED ON) #...is required...
-set(CMAKE_CXX_EXTENSIONS OFF)
+
 
 # RE2
 SET(RE2_DIR ${PROJECT_SOURCE_DIR})
