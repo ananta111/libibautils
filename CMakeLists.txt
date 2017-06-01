@@ -3,8 +3,10 @@ project(libibautils)
 
 set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
+set(Boost_USE_STATIC_LIBS OFF)
 
 target_compile_features(libibautils PRIVATE cxx_range_for)
+
 
 
 # RE2
