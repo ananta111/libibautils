@@ -5,7 +5,8 @@ set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
 
 
-target_compile_features(libibautils PRIVATE cxx_range_for)
+set(CMAKE_CXX_FLAGS "-Wall -std=c++0x")
+set(CMAKE_CXX_FLAGS "-Wall -fPIC")
 
 
 
