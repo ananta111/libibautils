@@ -4,6 +4,9 @@ project(libibautils)
 set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
 
+CFLAGS += -fPIC
+CPPFLAGS += -fPIC
+
 
 
 target_compile_features(libibautils PRIVATE cxx_range_for)
