@@ -6,7 +6,7 @@ set(CMAKE_BUILD_TYPE Release)
 
 
 set(CMAKE_CXX_FLAGS "-Wall -std=c++0x")
-set(CMAKE_CXX_FLAGS "-Wall -std=fPIC")
+
 
 
 
