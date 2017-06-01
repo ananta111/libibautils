@@ -3,7 +3,7 @@ project(libibautils)
 
 set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
-set (CMAKE_POSITION_INDEPENDENT_CODE TURE)
+
 
 
 target_compile_features(libibautils PRIVATE cxx_range_for)
