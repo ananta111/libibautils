@@ -3,6 +3,7 @@ project(libibautils)
 
 set(LIBIBAUTILS "ibautils")
 set(CMAKE_BUILD_TYPE Release)
+add_compile_options(-std=c++11) 
 
 # RE2
 SET(RE2_DIR ${PROJECT_SOURCE_DIR})
