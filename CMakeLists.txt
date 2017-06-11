@@ -13,6 +13,7 @@ add_definitions(-Wall -std=c++0x -fPIC)
 
 
 
+
 # RE2
 SET(RE2_DIR ${PROJECT_SOURCE_DIR})
 FIND_PACKAGE(RE2 REQUIRED)
